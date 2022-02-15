@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Slabo27px-Regular";
+  font-family: "OpenSans-Bold";
+  src: url(../font/Open_Sans/OpenSans-Bold.ttf);
+  src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+body {
+  background-image: url(../img/fond.png);
+  font-size: 1em;
+  line-height: 1.4em;
+}
+p {
+    font-family: "OpenSans-Bold";
+  color: rgba(82, 91, 100, 255);
+}
+#logo {
+  display: block;
+  margin: auto;
+}
+body {
+  margin: 0%;
+}
+nav {
+  font-family: "Slabo27px-Regular";
+}
+h1 h2 h3{
+    font-family: "Slabo27px-Regular"
+}
+#welcome {
+  font-size: 2.5em;
+}
+article h1 {
+  font-size: 3.5em;
+}
+section h2 {
+  font-size: 1.8em;
+}
+.right h2 {
+  font-size: 1.4em;
+}
+header {
+  margin-top: 60px;
+  background-color: rgba(37, 179, 180, 255);
+  padding-bottom: 2%;
+  border-top: 2.8px solid #176161;
+  border-bottom: 2.8px solid #176161;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-inline: 20px;
+}
+.container {
+  min-width: 800px;
+  max-width: 1100px;
+  margin: auto;
+}
+.top {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.top p {
+  width: 60%;
+}
+article h1 {
+  text-align: center;
+}
+#colors {
+  color: rgba(61, 163, 167, 255);
+}
+#color {
+  color: rgba(182, 222, 220, 255);
+}
+section h2 {
+  text-align: center;
+}
+.left {
+  display: inline-block;
+  width: 60%;
+  background-color: rgba(182, 222, 220, 255);
+  padding: 20px;
+}
+.right {
+  float: right;
+  width: 30%;
+  background-color: rgba(52, 177, 178, 255);
+  color: white;
+  padding: 20px;
+  border: 4px solid #176161;
+  position: relative;
+}
+.gauche {
+  display: inline-block;
+  width: 46%;
+}
+.droite {
+  float: right;
+  width: 46%;
+}
+.righto {
+  float: left;
+  border-radius: 90%;
+  padding: 10px;
+}
+.vignette {
+  position: absolute;
+  top: -60px;
+  right: -60px;
+}
+footer p {
+  text-align: center;
+}
+.foot {
+  display: block;
+  margin: auto;
+  width: 4%;
+  padding-top: 20px;
+}
+button {
+  padding: 10px;
+  background-color: rgba(43, 154, 160, 255);
+  border: none;
+  color: white;
+}

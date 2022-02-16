@@ -1,30 +1,27 @@
 @font-face {
   font-family: "Slabo27px-Regular";
+  src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+@font-face{
   font-family: "OpenSans-Bold";
   src: url(../font/Open_Sans/OpenSans-Bold.ttf);
-  src: url(../font/Slabo_27px/Slabo27px-Regular.ttf);
 }
 body {
   background-image: url(../img/fond.png);
   font-size: 1em;
   line-height: 1.4em;
+  margin: 0%;
 }
 p {
-    font-family: "OpenSans-Bold";
+  font-family: "OpenSans-Bold";
   color: rgba(82, 91, 100, 255);
 }
 #logo {
   display: block;
   margin: auto;
 }
-body {
-  margin: 0%;
-}
-nav {
+h1 h2 h3 nav {
   font-family: "Slabo27px-Regular";
-}
-h1 h2 h3{
-    font-family: "Slabo27px-Regular"
 }
 #welcome {
   font-size: 2.5em;
@@ -53,15 +50,15 @@ nav a {
   text-decoration: none;
   margin-inline: 20px;
 }
-.container {
+main {
   min-width: 800px;
   max-width: 1100px;
   margin: auto;
 }
 .top {
- text-align: center;
- margin: auto;
- width: 60%;
+  text-align: center;
+  margin: auto;
+  width: 60%;
 }
 
 article h1 {
@@ -124,6 +121,13 @@ button {
   border: none;
   color: white;
 }
-.colorfa{
-  color: rgba(52,177,178,255);
+.colorfa {
+  color: rgba(52, 177, 178, 255);
 }
+/* @media only screen and (max-width: 768px) {
+  .left {
+    display: block;
+    width: 88%;
+  }
+  
+} */
